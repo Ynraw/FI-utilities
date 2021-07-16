@@ -17,6 +17,7 @@ my_parser.add_argument('-ext', '--file_extension', type=str,
 args = my_parser.parse_args()
 
 folder = args.path
+
 file_ext = args.file_extension
 
 # search all files and save its path and size to a text file and sort from largest to smallest
