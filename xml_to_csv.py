@@ -187,11 +187,12 @@ def main(path, stat):
 if __name__ == '__main__':
 
     # Create parser
-    my_parser = ArgumentParser(prog='convert_to_csv',
+    my_parser = ArgumentParser(prog='xml_to_csv',
                             usage='Convert to CSV XML file output from PROMAX Ranger Explorer',
                             description='Command Line Application that converts XML files to CSV. This will take\n\
-                                        a folder with xml files and convert them to csv at once unlike in the\n\
-                                        PROMAX website where it takes/convert one by one. You can visit \n"https://www.promax.es/tools/kml-generator/"',
+                                        a folder with xml files and convert them to csv which all files can be consolidated as one unlike in the\n\
+                                        PROMAX website where it takes/convert one by one. You can visit \n"https://www.promax.es/tools/kml-generator/".\n\
+                                        \n'
                             )
 
     # Add the arguments
